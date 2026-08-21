@@ -32,15 +32,15 @@ const PORT = Number(process.env.PORT || 3000);
 
 const API_KEY =
     process.env.API_KEY ||
-    "gramdb_api_key_change_this";
+    "gramdb_api_key_2005tanzania2005";
 
 const JWT_SECRET =
     process.env.JWT_SECRET ||
-    "gramdb_access_secret_change_this";
+    "gramdb_secrete_key_2005tanzania2005";
 
 const REFRESH_SECRET =
     process.env.REFRESH_SECRET ||
-    "gramdb_refresh_secret_change_this";
+    "gramdb_refresh_secret_2005tanzania2005";
 
 const DB_FILE =
     path.join(__dirname, "database.json");
