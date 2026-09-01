@@ -2,12 +2,12 @@
   "name": "gramdb-pro",
   "version": "1.0.0",
   "description": "GramDB - production-ready: App -> API Key -> Access Token -> GramDB (Postgres, hakuna OTP/password)",
-  "main": "server.js",
+  "main": "src/server.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js",
-    "migrate": "node config/migrate.js"
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "migrate": "node src/config/migrate.js"
   },
   "dependencies": {
     "express": "^4.19.2",
