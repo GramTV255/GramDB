@@ -5,9 +5,9 @@
   "main": "server.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "node --watch src/server.js",
-    "migrate": "node src/config/migrate.js"
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "migrate": "node config/migrate.js"
   },
   "dependencies": {
     "express": "^4.19.2",
