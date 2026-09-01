@@ -2,7 +2,7 @@
   "name": "gramdb-pro",
   "version": "1.0.0",
   "description": "GramDB - production-ready: App -> API Key -> Access Token -> GramDB (Postgres, hakuna OTP/password)",
-  "main": "src/server.js",
+  "main": "server.js",
   "type": "commonjs",
   "scripts": {
     "start": "node src/server.js",
